@@ -8,6 +8,15 @@ class Pages
 	
 	function __construct()
 	{
-		echo "Pages loadded";  
+	}
+
+	public function index() 
+	{
+
+	}
+
+	public function about()
+	{
+		echo "About method";
 	}
 }

@@ -3,11 +3,12 @@
  * App core Class
  * Creates Urls & loads core controller
  * URL FROMAT - /controller/method/params
+ * Author : <cse.shahriar.hosen@gmail.com>
  */
 class Core
 {
-	protected $currentController = 'Pages'; 
-	protected $currentMethod = 'index';
+	protected $currentController = 'Pages'; // default controller 
+	protected $currentMethod = 'index'; // default method 
 	protected $params = [];
 
 	function __construct()

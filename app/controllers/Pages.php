@@ -15,13 +15,13 @@ class Pages extends Controller
 	public function index() 
 	{
 		$data = [
-			'title' => 'Welcome'
+			'title' => 'Index'
 		];
-		$this->view('pages/index', $data);      
+		$this->view('pages/index', $data);       
 	}
 
 	public function about()
 	{
-		$this->view('pages/about');
+		$this->view('pages/about');   
 	}
 }

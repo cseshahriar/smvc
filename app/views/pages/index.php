@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title><?= $data['title'] ?></title>
-</head>
-<body>
-	<h1><?= $data['title'] ?></h1>  
-	<h2><?php echo APPROOT; ?></h2>
-	
-</body>
-</html>
+<?php require_once APPROOT.'/views/inc/header.php'; ?> 
+	<h1><?= $data['title'] ?></h1>  	
+<?php require_once APPROOT.'/views/inc/footer.php'; ?>  

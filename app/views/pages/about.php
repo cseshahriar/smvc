@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>About Pages</title>
-</head>
-<body>
-	<h1>About Pages</h1>  
-	
-</body>
-</html>
+<?php require_once APPROOT.'/views/inc/header.php'; ?> 
+	<h1><?= $data['title'] ?></h1>  	
+<?php require_once APPROOT.'/views/inc/footer.php'; ?>  

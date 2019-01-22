@@ -1,18 +1,18 @@
 <?php
 // DB Params
 define('DB_HOST', 'localhost'); 
-define('DB_USER', 'root'); 
-define('DB_PASS', '847847'); 
-define('DB_NAME', 'smvc');        
+define('DB_USER', '_YOUR_USER'); 
+define('DB_PASS', '_USER_PASS'); 
+define('DB_NAME', '_DB_NAME');        
 
 // App Root 
-define('APPROOT' ,dirname(dirname(__FILE__))); 
+define('APPROOT' ,dirname(dirname(__FILE__)));  
 
 // URL Root 
-define('RULROOT', 'http://smvc.com'); 
+define('RULROOT', '_APP_URL');  
 
 // Site Name
-define('SITENAME', 'ShahriarMVC'); 
+define('SITENAME', '_YOUR_SITE_NAME'); 
 
 // Default time zone
 date_default_timezone_set("Asia/Dhaka"); 

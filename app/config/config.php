@@ -1,4 +1,10 @@
-<?php 
+<?php
+// DB Params
+define('DB_HOST', 'localhost'); 
+define('DB_USER', 'root'); 
+define('DB_PASS', '847847'); 
+define('DB_NAME', 'smvc');        
+
 // App Root 
 define('APPROOT' ,dirname(dirname(__FILE__))); 
 

@@ -14,11 +14,14 @@ class Pages extends Controller
 	// default method must have 
 	public function index() 
 	{
-		$this->view('welcome');   
+		$data = [
+			'title' => 'Welcome'
+		];
+		$this->view('pages/index', $data);      
 	}
 
-	public function about($id)
+	public function about()
 	{
-		echo "About method "; 
+		$this->view('pages/about');
 	}
 }
